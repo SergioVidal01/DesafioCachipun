@@ -29,7 +29,7 @@ function determinarGanador(jugadaPlayer, jugadaMaquina) {
 
     if (ganador === "Empate") {
         mensaje += "Es un empate.";
-    } else if (ganador === "Usuario") {
+    } else if (ganador === "Player") {
         mensaje += "¡Felicidades! Has ganado." ;
     } else {
         mensaje += "Lo siento, la computadora ha ganado.";
